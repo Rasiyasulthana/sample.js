@@ -158,7 +158,7 @@ let emp1 = new employee("John", 50000);
 emp1.displayDetails();
 */
 let fruits1 = ["Apple", "Mango"];
-let fruits2 = ["Orange", "Banana"];
+let fruits2 = ["Oranges", "Banana"];
 
 let allFruits = [...fruits1, ...fruits2];
 
