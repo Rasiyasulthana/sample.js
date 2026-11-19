@@ -170,3 +170,4 @@ function printTopThree(first, second, third) {
 }
 
 const topPlayers = ["Rohan", "Ananya", "Dev"];
+printTopThree(...topPlayers);
