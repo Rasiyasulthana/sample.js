@@ -156,10 +156,17 @@ class employee {
 }
 let emp1 = new employee("John", 50000);
 emp1.displayDetails();
-*/
 let fruits1 = ["Apple", "Mango"];
 let fruits2 = ["Oranges", "Banana"];
 
 let allFruits = [...fruits1, ...fruits2];
 
 console.log(allFruits);
+*/
+function printTopThree(first, second, third) {
+  console.log("1:", first);
+  console.log("2:", second);
+  console.log("3:", third);
+}
+
+const topPlayers = ["Rohan", "Ananya", "Dev"];
